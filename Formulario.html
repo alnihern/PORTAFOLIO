@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action=""  method="post"  
+    enctype="text/plain"> 
+    <fieldset>
+        <legend>Datos del usuario</legend>
+        <label form="usuario"> Nombre de usuario:</label>
+        <input type="text" placeholder="Usuario" maxlength="12"
+        name="Usuario" id="usuario" />
+        <br>
+        <lable for="nombre">Nombre</lable>
+        <input type="text" name="nombre" id="nombre"/>
+        <br>
+        <lable for="apellido">Apellido Paterno</lable>
+        <input type="text" name="apellido" id="apellido"/>
+        <br>
+        <lable for="apellidom">Apellido Materno</lable>
+        <input type="text" name="apellidom" id="apellidom"/>
+        <br>
+        <label form="">Contraseña:</label>
+        <input type="password" name="pass"
+        id="pass" placeholder="" requerid/>
+
+        <input type="submit"/>
+        <br>
+
+        <lable for="comenta"> Comentarios</lable><br>
+        <textarea name="comenta" id="comenta"
+        cols="25" rows="10"></textarea>
+
+        <br>
+        <lable for="">E-mail :</lable>
+        <input type="email" name="correo" id="correo"> </imput>
+        <input type="submit"/>
+
+        <br>
+        <lable for="">Fecha de nacimiento</lable>
+        <input type="date"/ name="fecha" id="fecha"/>
+        <input type="submit"/>
+
+        <br>
+        <lable for="">Selecciona un Color</lable>
+        <input type="color" name="colores" id="colores" />
+        <input type="submit"/>
+
+        <br>
+        <lable for="Mes">Mes de reggistro</lable>
+        <input type="month" name="mes" id="mes">
+        <input type="submit"/>
+
+        <br>
+        <lable for="semana ">Semana</lable>
+        <input type="week" name="Sem"  id="Sem" required/> 
+        <input type="submit"/>
+
+        <br>
+        <lable for="fechahora">Fecha y Hora</lable>
+        <input type="datetime-local" name="diatiemp" id="diatiemp"/>
+        <input type="submit"/>
+
+        <br>
+        <lable for="archivo">Adjuntar archivo</lable>
+        <input type="file" name="documento" id="documento" />
+        <input type="submit"/>
+
+        <br>
+        <lable for="pagina">Direccion URL</lable>
+        <input type="URL" name="pag" id="pag"/>
+        <input type="submit"/>
+
+        <br>
+        <lable type="cantidad">Cantidad a comprar</lable>
+        <input type="number" name="numero" id="numero"/>
+        <input type="submit"/>
+
+        <br>
+        <lable for="califica">Calificacion</lable>
+        <input type="range" mane="cali" id="cali" min="1" max="10" value="7"/>
+        <input type="submit"/>
+
+        <br>
+        <h3>Indica tus formas de pago preferenciales</h3>
+        <input type="checkbox" name="tarjeta" id="tarjeta" value="tarjeta"/>
+        <label for="tarjeta">Tarjeta de credito</label>
+
+        <br>
+        <input type="checkbox" name="debito" id="debito" value="Tarjetad" checked/>
+        <label for="debito">Tarjeta de debito</label>
+    
+        <br>
+        <input type="checkbox" name="transfer" id="transfer" value="transfer"/>
+        <lable for="transf">Transferencia</lable>
+        
+        <h3>Indica tu genero</h3>
+        <input type="radio"  name="genero" id="genero" />
+        <lable for="genero1">Femenino</lable>
+        
+        <br>
+        <input type="radio" name="genero" id="genero" />
+        <lable for="genero2">Masculino</lable>
+
+        <br>
+        <h3>Categoria de producto a buscar</h3>
+        <select size="8" multiple>
+            <optgroup label="Alimentos">
+            <option selected>Lacteos</option>
+            <option>Refrigerados</option>
+            <option>Carnes</option>
+            <option>Frutas</option>
+            <option>Verduras</option>
+            </optgroup>
+            <optgroup label="Cuidado personal">
+            <option>Higiene personal</option>
+            <option>Belleza</option>
+            </optgroup>
+            <optgroup label="Hogar">
+            <option>Productos de limpieza</option>
+            <option>Jardineria</option>
+            </optgroup>
+        </select>
+        
+    </fieldset>
+    </form>
+
+</body>
+</html>
