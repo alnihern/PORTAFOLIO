@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+<h1 align="center">Tienda de ropa en linea</h1>
+<br>
+<table frame="box">
+    <thead>
+    <tr style="text-align:center">
+        <th>Informacion del cliente</th>
+        <th colspan="6"></th>
+    </tr>
+     </thead>
+     <tbody>
+    <tr>
+    
+        <td style="width:200px">   </td>
+        <td>
+        <lable for="nombre">Nombre:</lable><br>
+        <input type="text" placeholder="Nombre" maxlength="12"
+        name="Usuario" id="usuario" required/>
+        <br>
+        </td>
+        <td style="width:200px"> </td>
+        <td>
+            <lable for="apell">Apellido paterno:</lable>
+            <br>
+            <input type="text"  placeholder="Apellido paterno" name="apell1" id="apell1" required/>
+            
+        </td>
+        <td style="width:200px"> </td>
+        <td>
+            <lable for="apell2">Apellido materno:</lable><br>
+            <input type="text" placeholder="Apellido materno" name="apell2" id="apell2" required/><br>
+        </td>
+        <td style="width:200px"> </td>
+    </tr>
+    <tr>
+    
+        <td style="width:200px">   </td>
+        <td>
+            <lable for="nombre de us">Nombre de usuario:</lable><br>
+            <input type="text" placeholder="Usuario" name="nom us" id="nom us"/><br>
+        </td>
+        <td style="width:200px"> </td>
+        <td>
+            <lable for="contra">Contraseña:</lable><br>
+          <input type="text" placeholder="Password" name="pass" id="pass" /><br>
+        </td>
+        <td style="width:200px"> </td>
+        <td style="width:200px"> </td>
+        <td style="width: 300px"> </td>
+    </tr>
+    </tbody>
+
+</table>
+<br>
+
+<table frame="box">
+    <tbody>
+    <thead>
+        <tr style="text-align:center">
+            <th>Datos de Facturacion</th>
+            <th colspan="6"></th>
+        </tr>
+    </thead>
+    <tr>
+        <td style="width:200px">  </td>
+        <td>
+            <lable for="dom">Calle:</lable><br>
+            <input type="text" placeholder="Calle" name="dom" id="nom"/><br>
+        </td>
+        <td style="width:100px"> </td>
+        <td>
+            <lable for="numero">Num:</lable><br>
+            <input type="text" placeholder="Num. Exterior" name="num" id="num"/><br>
+        </td>
+        <td style="width:100px"> </td>
+        <td>
+            <lable for="colonia">Colonia:</lable><br>
+            <input type="text" placeholder="Colonia" name="colon" id="colon"/><br>
+        </td>
+        <td style="width:200px"></td>
+    </tr>  
+    <tr>
+        <td style="width:200px"></td>
+        <td>
+            <lable for="correo">E-mail:</lable><br>
+           <input type="text" placeholder="E-mail" name="email" id="email"required/><br>
+        </td>
+        <td style="width:200px"></td>
+        <td>
+            <lable for="codigo">Codigo postal:</lable><br>
+            <input type="text" placeholder="C.P." name="postal" id="postal"/><br>
+        </td>
+        <td style="width:200px"></td>
+        <td>
+            <lable for="rfc">RFC:</lable><br>
+            <input type="text" placeholder="RFC" name="rf" id="rf" required/><br>
+        </td>
+    </tr>  
+    <tr>
+        <td style="width:200px"></td>
+        <td>
+            <lable for="">Fecha de la venta: </lable><input type="date"/ name="fecha" id="fecha"/>        
+        </td>
+        <td style="width:200px"></td>
+        <td style="width:200px"></td>
+        <td style="width:200px"></td>
+        <td style="width:200px"></td>
+        <td style="width:200px"></td>
+    </tr>
+    </tbody>
+</table>
+<br>
+
+<table frame="box">
+    <tbody>
+        <thead>
+            <tr style="text-align:center">
+                <th>Datos del articulo adquirido</th>
+                <th colspan="6"></th>
+            </tr>
+        </thead>
+        <tr>
+            <td style="width:200px"></td>
+            <td>
+                <h3>Tipo</h3>
+                <select size="5" multiple>
+                    <option>Vestido</option>
+                    <option>Falda</option>
+                    <option>Pantalon</option>
+                    <option>Playeras</option>
+                    <option>Camisa</option>
+                </select>
+            </td>
+            <td style="width:200px"></td>
+            <td>
+                <h3>Talla</h3>
+                <input type="checkbox" name="talla1" id="talla1" value="Tallas"/>
+                <label for="talla1">Chico</label>
+        
+                <br>
+                <input type="checkbox" name="talla2" id="talla2" value="Talla_s"/>
+                <label for="talla2">Mediano</label>
+            
+                <br>
+                <input type="checkbox" name="talla3" id="talla3" value="Tallas_"/>
+                <lable for="talla3">Grande</lable><br>
+            </td>
+            <td style="width:200px"></td>
+            <td>
+                <lable for="">Selecciona el color</lable><br>
+                <input type="color" name="colors" id="colors"/><br>
+                <input type="submit" name="enviar" id="enviar" value="Enviar datos"/> <input type="reset" name="borrar" id="borrar" value="Borrar datos"/>
+            </td> 
+            <td style="width:200px"> </td>
+            <td style="width:300px"> </td>
+        
+    </tbody>
+</table>
+<footer align="right"><b>
+    &copy;Distribuidora de ropa en linea 2023
+</b>
+</footer>
+</body>
+</html>
