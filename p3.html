@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table>
+
+    <h1 align="center"><b>Boletos</b></h1>
+    <tbody>
+        <tr>
+            <td colspan="2" align="center"> 
+                <h3>Peliculas</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+                <input type="checkbox" name="fila1" id="fila1" value="peli" />
+                <label for="Fila1">Gato con botas</label><br>
+                <input type="checkbox" name="fila1" id="fila1" value="peli" />
+                <label for="Fila1">Aftersun-Atardecer</label><br>
+                <input type="checkbox" name="fila1" id="fila1" value="peli" />
+                <label for="Fila1">Elvis</label><br>
+                <input type="checkbox" name="fila1" id="fila1" value="peli" />
+                <label for="Fila1">Avatar</label><br>
+                <input type="checkbox" name="fila1" id="fila1"  value="pelo"/>
+                <label for="Fila1">Thor</label><br>
+
+            </td>
+            <td>
+                <input type="checkbox" name="fila1" id="fila1"  value="peli"/>
+                <label for="Fila1">Mulan</label><br>
+                <input type="checkbox" name="fila1" id="fila1" value="peli" />
+                <label for="Fila1">Sonic</label><br>
+                <input type="checkbox" name="fila1" id="fila1"  value="peli"/>
+                <label for="Fila1">Toy Story 4</label><br>
+                <input type="checkbox" name="fila1" id="fila1" value="peli" />
+                <label for="Fila1">Malvada</label><br>
+            </td>
+            <td style="width:200px"> </td>
+            <td>
+                <br>
+                <h3>Idioma</h3>
+                <input type="radio"  name="idioma" id="idioma" /> 
+                <lable for="subtitul">Subtitulada</lable>
+                <br>
+                <input type="radio" name="idioma" id="idioma" />
+                <lable for="espa">Español</lable><br>
+            </td>
+            <td style="width:200px"> </td>
+            <td>
+                <br>
+                <lable for="locacion">Sucursal</lable> <br>
+                <input type="text" name="sucurs" id="sucurs" list="sucursal"/>
+                <datalist id="sucursal">
+                    <option>Plaza Citadina</option>
+                    <option>Plaza el Dorado</option>
+                    <option>Plaza San Luis</option>
+                    <option>Plaza Sendero</option>
+                    <option>Plaza Tangamanga</option>
+                    <option>Macro Plaza San Luis</option>
+                </datalist>
+                <br>
+            </td>
+            <td style="width:200px"> </td>
+        </tr>
+        <br>
+</table>
+
+<br><br><br>
+
+
+<table>
+        <tr>
+            <td rowspan="2">
+                <h4 align="center">Fechas</h4>
+                <label for="fech">12 Marzo --13:45 / 15:10</label><br>
+                <label for="fech">13 Marzo --19:30 / 22:30</label><br>
+                <label for="fech">14 Marzo --16:25 / 21:00</label><br>
+                <label for="fech">12 Marzo --18:15 / 20:30</label><br><br>
+                <lable for="fechahora">Fecha y Hora</lable><br>
+                <input type="datetime-local" name="diatiemp" id="diatiemp"/><br>
+            </td>
+            <td style="width:200px"> </td>
+            <td>
+                <h3>Boletos</h3>
+                <input type="checkbox" name="niños" id="niños" value="boleto" />
+                <label for="bol1">$60  Niño</label><br>
+                <input type="checkbox" name="adulto" id="adulto" value="boleto"checked/>
+                <label for="bol">$75    Adulto</label><br>
+                <input type="checkbox" name="mayor" id="mayor" value="transfer"/>
+                <lable for="bol2">$60   3era Edad</lable><br>
+                <br>
+                <lable type="cantidad">Cantidad a comprar</lable><br>
+                <input type="number" name="numero" id="numero"/>
+            </td>
+            <td style="width:200px"> </td>
+            <td>
+                <h3>Asientos</h3>
+                <select size="8" multiple>
+                    <optgroup label="Fila A">
+                    <option>A1</option>
+                    <option>A2</option>
+                    <option>A3</option>
+                    <option>A4</option>
+                    <option>A5</option>
+                    <option>A6</option>
+                    <option>A7</option>
+                    <option>A8</option>
+                    <option>A9</option>
+                    <option>A10</option>
+                    </optgroup>
+                    <optgroup label="Fila B">
+                    <option>B1</option>
+                    <option>B2</option>
+                    <option>B3</option>
+                    <option>B4</option>
+                    <option>B5</option>
+                    <option>B6</option>
+                    <option>B7</option>
+                    <option>B8</option>
+                    <option>B9</option>
+                    <option>B10</option>
+                    </optgroup>
+                    <optgroup label="Fila C">
+                    <option>C1</option>
+                    <option>C2</option>
+                    <option>C3</option>
+                    <option>C4</option>
+                    <option>C5</option>
+                    <option>C6</option>
+                    <option>C7</option>
+                    <option>C8</option>
+                    <option>C9</option>
+                    <option>C10</option>
+                    </optgroup>
+                    <optgroup label="Fila D">
+                    <option>D1</option>
+                    <option>D2</option>
+                    <option>D3</option>
+                    <option>D4</option>
+                    <option>D5</option>
+                    <option>D6</option>
+                    <option>D7</option>
+                    <option>D8</option>
+                    <option>D9</option>
+                    <option>D10</option>
+                    </optgroup>
+                    <optgroup label="Fila E">
+                    <option>E1</option>
+                    <option>E2</option>
+                    <option>E3</option>
+                    <option>E4</option>
+                    <option>E5</option>
+                    <option>E6</option>
+                    <option>E7</option>
+                    <option>E8</option>
+                    <option>E9</option>
+                    <option>E10</option>
+                    </optgroup>
+                </select>
+            </td>
+            <td style="width:200px"> </td>
+        </tr>
+</table>
+
+<br><br><br>
+
+<table>
+        <tr>
+            <td>
+                <lable for="nombre">Nombre:</lable><br>
+                <input type="text" name="nombre" id="nombre" required/><br>
+            
+
+                <lable for="apellido">Apellido:</lable><br>
+                <input type="text" name="apellido" id="apellido" required/><br>
+            </td>
+            <td style="width:200px"> </td>
+            <td>
+                <lable for="">E-mail :</lable><br>
+                <input type="email" name="correo" id="correo" required> </imput><br>
+            </td>
+            <td style="width:200px"> </td>
+            <td>
+                <h3>Metodo de pago</h3>
+                <input type="checkbox" name="tarjeta" id="tarjeta" value="tarjeta"/>
+                <label for="tarjeta">Tarjeta de credito</label><br>
+
+                <input type="checkbox" name="debito" id="debito" value="Tarjetad" checked/>
+                <label for="debito">Tarjeta de debito</label><br>
+
+                <input type="checkbox" name="transfer" id="transfer" value="transfer"/>
+                <lable for="transf">Transferencia</lable>
+            
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
