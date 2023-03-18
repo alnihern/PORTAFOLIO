@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(0, 0, 0, 0.712);
+    background-size:75%;
+}
+legend{
+    color: white;
+}
+h1{
+    color: white;
+    font-family:cursive;
+}
+.texto{
+    color: white;
+}
+h2{
+    color: white;
+    font-family:sans-serif;
+
+}
+h3{
+    color: white;
+    font-family:sans-serif;
+   
+}
