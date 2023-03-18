@@ -1,0 +1,30 @@
+body{
+    font-style: initial;
+    background-color: rgb(250, 210, 231);
+}
+div{
+    background-color:rgb(165, 245, 158);
+}
+h2{
+    color: blue;
+    font-weight: 85;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+a{
+    color:darkmagenta;
+    font-weight:65;
+}
+
+#ct{
+    text-decoration:blueviolet
+}
+.text{
+    color: rgb(147, 230, 64);
+}
+
+
+
+
