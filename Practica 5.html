@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 5</title>
+    <link rel="stylesheet" href="P_5.css"/>
+</head>
+<body>
+
+    <h1 align="center">Servicios de Internet y Telefonia</h1>
+    <h2 align="center">Contrato de Servicios</h2>
+
+<fieldset>
+<legend><b>Datos del cliente</b></legend>
+<table>
+            <tr>
+                <td style="width:200px"> </td>
+                <td>
+                    <lable class="texto" for="nombre">Nombre:</lable><br>
+                    <input type="text" placeholder="Nombre" name="nombre" id="nombre" required/>
+                    
+                </td>
+                <td>
+                    <lable class="texto" for="apellido">Apellido Paterno:</lable><br>
+                    <input type="text" placeholder="Apellido Paterno" name="apellido" id="apellido" required/>
+                   
+                </td>
+                <td>
+                    <lable class="texto" for="apellidom">Apellido Materno:</lable><br>
+                    <input type="text" placeholder="Apellido Materno"  name="apellidom" id="apellidom" required/>
+                </td>
+                <td style="width:200px"> </td>
+            </tr>
+            <tr>
+                <td style="width:200px"> </td>
+                <td align="center">
+                    <br>
+                    <select size="6">
+                        <optgroup label="San Luis Potosí">
+                            <option>Ahualulco</option>
+                            <option>Santa Maria del Rio</option>
+                            <option>Guadalcazar</option>
+                            <option>Axtla de terrazas</option>
+                            <option>Xilitla</option>
+                        </optgroup>
+                        <optgroup label="Queretaro">
+                            <option>Santiago</option>
+                            <option>Jalpan de serra</option>
+                            <option>San juan del rio</option>
+                            <option>Cañada</option>
+                        </optgroup>
+                        <optgroup label="Jalisco"> 
+                            <option>Arandas</option>
+                            <option>San Juan de los Lagos</option>
+                            <option>Sayula</option>
+                            <option>Zapopan</option>
+                            <option>Tequila</option>
+                        </optgroup>
+                        <optgroup label="Sinaloa"> 
+                            <option>Guasabe</option>
+                            <option>Badiraguato</option>
+                            <option>Angostura</option>
+                            <option>Mazatlan</option>
+                        </optgroup>
+                        <optgroup label="Nayarit">
+
+                            <option>Tepic</option>
+                            <option>Compostela</option>
+                            <option>Jesus Maria</option>
+                            <option>Sayulita</option>
+                        </optgroup>
+                        <optgroup label="Zacatecas"> 
+                            <option>Jerez</option>
+                            <option>Fresnillo</option>
+                            <option>Loreto</option>
+                            <option>Ojo caliente</option>
+                        </optgroup>
+                    </select>
+                </td>
+                <td style="width:200px"> </td>
+                <td style="width:200px"> </td>
+                <td style="width:200px"> </td>
+            </tr>
+</table>
+</fieldset>
+<br>
+<br>
+
+<fieldset>
+<legend><b>Servicio a contratar</b></legend>
+<table>
+    <tr>
+        <td style="width:200px"> </td>
+        <td class="texto" colspan="3">Seleccione el tipo de Servicio a contratar</td>
+    </tr>
+    <tr>
+        <td style="width:200px"> </td>
+        <td align="center" class="texto">
+            <lable for="transf">Linea Telefonica</lable>
+            <input type="checkbox" name="serv1" id="serv1" value="Telefonia" checked/>
+        </td>
+        <td  style="width:200px"> </td>
+        <td  align="center" class="texto">
+            <lable for="transf">Servicio de Internet</lable>
+            <input type="checkbox" name="serv2" id="serv2" value="internet" checked/>
+        </td>
+        <td style="width:200px"> </td>
+    </tr>
+</table>
+</fieldset>
+<br>
+<br>
+
+<fieldset>
+<legend><b>Forma de pago</b></legend>
+<table>
+    <tr>
+        <td style="width:200px"> </td>
+        <td class="texto">
+            <h4>Elige la forma de pago</h4>
+            <lable for="p1">TDC </lable>
+            <input type="radio" name="pago" id="pago" />
+            <br>
+            <lable for="p2">Tarjeta de debito </lable>
+            <input type="radio" name="pago" id="pago" checked/>
+            <br>
+            <lable for="p3">Pago en efectivo </lable>
+            <input type="radio" name="pago" id="pago" />
+            <br>
+            <lable for="p4">Pago mediante cheque </lable>
+            <input type="radio" name="pago" id="pago" />
+            <br>
+            <lable for="p5">Transferencia Bancaria </lable>
+            <input type="radio" name="pago" id="pago" />
+            <br>
+            <lable for="p6">Deposito Bancario</lable>
+            <input type="radio" name="pago" id="pago" />
+            <br>
+            <lable for="p7">Pago en OXXO</lable>
+            <input type="radio" name="pago" id="pago" />
+        </td>
+    </tr>
+    <tr>
+        <td style="width:200px"> </td>
+        <td align="center" >
+            <br>
+            <input type="submit" name="enviar" id="enviar" value="Enviar datos"/>
+            <input type="reset" name="borrar" id="borrar" value="Borrar datos"/>
+        </td>
+    </tr>
+</table>
+
+</fieldset>
+
+<h2 align="center">Práctica 5</h2>
+<h3 align="center">HTML y CSS</h3>
+<h3 align="center">Primavera 2023</h3>
+</body>
+</html>
