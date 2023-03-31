@@ -1,0 +1,43 @@
+#texto{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    display: block;
+    width:350px;
+    padding: 20px;
+    font-size: 20px;
+    background:rgb(137, 174, 241);
+    text-align: center;
+    margin: 13px auto;
+
+}
+#texto:hover{
+    display: block;
+    width:350px;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    margin: 13px auto;
+    background: rgb(152, 233, 145);
+    -moz-border-radius:40px;
+    -webkit-border-radius:40px;
+    border-radius:40px;
+
+    transform:skew(10deg);
+    -moz-transform:skew(10deg);
+    -webkit-transform:skew(10deg);
+}
+#texto:focus{
+    display: block;
+    width:350px;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    margin: 13px auto;
+    background: rgb(233, 158, 145);
+
+    -moz-box-shadow: rgb(189, 181, 241) 10px 15px 15px;
+    -webkit-box-shadow:  rgb(189, 181, 241) 10px 15px 15px;
+    box-shadow:  rgb(189, 181, 241) 10px 15px 15px;
+}
